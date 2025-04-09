@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genesys Healthcare Solutions</title>
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- Smooth scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+    }
+
+    header {
+      background-color: #ff6600;
+      color: #000;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      border: 2px solid #ff6600;  /* Adding a border around the text */
+      padding: 10px 20px;
+      border-radius: 6px;
+    }
+
+    .logo h1 i {
+      font-size: 1.5rem;
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+      background-color: #1e1e1e;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #ff6600;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      animation: slideUp 1s ease;
+    }
+
+    .section h2 {
+      color: #ff6600;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    .btn {
+      background-color: #ff6600;
+      color: #000;
+      border: none;
+      padding: 12px 20px;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background-color: #ff8533;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      0% { opacity: 0; transform: translateY(40px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .icons i {
+      font-size: 24px;
+      margin: 10px;
+      color: #ff6600;
+      transition: color 0.3s;
+    }
+
+    .icons i:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <h1><i class="fas fa-hospital-alt"></i> Genesys Healthcare Solutions</h1>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Innovating Healthcare for a Healthier Tomorrow</h1>
+    <p>We deliver modern, tech-driven healthcare solutions that empower providers and improve patient outcomes.</p>
+    <button class="btn"><i class="fas fa-stethoscope"></i> Learn More</button>
+  </div>
+
+  <div class="section" id="about">
+    <h2><i class="fas fa-info-circle"></i> About Us</h2>
+    <p>
+      Genesys Healthcare Solutions is dedicated to providing direct-hire healthcare professionals across the USA. 
+      Our goal is to provide highly qualified, reliable, and compassionate healthcare professionals who seamlessly integrate into healthcare teams 
+      to enhance patient care, improve healthcare outcomes, and drive innovation. We do not operate as a staffing agency, but as trusted partners 
+      who focus on delivering sustainable and long-term healthcare solutions. 
+    </p>
+  </div>
+
+  <div class="section" id="services">
+    <h2><i class="fas fa-cogs"></i> Our Services</h2>
+    <ul>
+      <li>Direct-hire Healthcare Professionals</li>
+      <li>Healthcare IT Consulting</li>
+      <li>Telemedicine Development</li>
+      <li>AI-Powered Patient Data Analytics</li>
+    </ul>
+  </div>
+
+  <div class="section" id="contact">
+    <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+    <p>Email: contact@genesyshealth.com</p>
+    <p>Phone: +91-12345-67890</p>
+    <p>Location: New Delhi, India</p>
+    <div class="icons">
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter-square"></i></a>
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+    </div>
+  </div>
+
+  <div class="section" id="hiring">
+    <h2>We Are Hiring Department!</h2>
+    <p>We are looking for talented healthcare professionals to join our team! Here are some of the top healthcare organizations we support:</p>
+    <ul>
+      <li>Amedisys</li>
+      <li>LHC Group (Now part of UnitedHealth Group)</li>
+      <li>Kindred at Home (Now CenterWell Home Health)</li>
+      <li>Interim HealthCare</li>
+      <li>Select Medical</li>
+      <li>Brookdale Senior Living</li>
+      <li>Genesis HealthCare</li>
+      <li>Mayo Clinic (Rochester, MN)</li>
+      <li>Cleveland Clinic (Cleveland, OH)</li>
+      <li>Johns Hopkins Hospital (Baltimore, MD)</li>
+      <li>Massachusetts General Hospital (Boston, MA)</li>
+      <li>Cedars-Sinai Medical Center (Los Angeles, CA)</li>
+      <li>Life Care Centers of America</li>
+      <li>Encompass Health</li>
+      <li>Atria Senior Living</li>
+      <li>Shirley Ryan AbilityLab (Chicago, IL)</li>
+      <li>Craig Hospital (Englewood, CO)</li>
+      <li>BAYADA Home Health Care</li>
+      <li>Acadia Healthcare</li>
+      <li>Universal Health Services (UHS) Behavioral Division</li>
+      <li>McLean Hospital (MA)</li>
+      <li>Sheppard Pratt (MD)</li>
+    </ul>
+  </div>
+
+  <footer>
+    &copy; 2025 Genesys Healthcare Solutions. All rights reserved.
+  </footer>
+
+</body>
+</html>
